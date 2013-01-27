@@ -21,8 +21,8 @@ public class AlunoRegular extends Aluno {
 			String nacionalidade, String estado, String email, String rg,
 			String cpf, Blob foto, String endereco, String cep, String cidade,
 			String dedicacao, float horas_semanais, String necessidade_bolsa) {
-		super(id, nome, dt_nascimento, telefone1, telefone2, naturalidade,
-				nacionalidade, estado, email);
+		
+		super(id, nome, dt_nascimento, telefone1, telefone2, naturalidade,nacionalidade, estado, email);
 		this.rg = rg;
 		this.cpf = cpf;
 		this.foto = foto;
