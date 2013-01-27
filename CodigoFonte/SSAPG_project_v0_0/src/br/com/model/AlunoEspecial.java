@@ -22,6 +22,4 @@ public class AlunoEspecial extends Aluno{
 		this.comentario = comentario;
 	}
 
-		
-	
 }
