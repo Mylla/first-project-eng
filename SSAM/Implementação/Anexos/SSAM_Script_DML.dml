@@ -1,0 +1,363 @@
+/*Criação de pessoas*/
+insert into pes_pessoa (pes_nome,pes_telefone1,pes_telefone2,pes_email,
+pes_naturalidade,pes_estado ,pes_nacionalidade, pes_genero	) values
+
+/*adms*/
+('Camila dos Santos', '7133333333',null, 'camila@ssma.com', 'Salvador', 'BA', 'Brasileira','F'),
+('Patricia Neris Santana','7144444444', null, 'patricia@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Georgiane Ferreira Pereira','7155555555', null,  'georgiane@ssma.com', 'Guanambi', 'BA', 'Brasileira', 'F'),
+
+/*alunos*/
+('Carlos dos Santos', '7134343434',null, 'carlos@ssma.com', 'Serrinha', 'BA', 'Brasileiro','M'),
+('Ester Santana', '7145454545', null, 'ester@ssma.com','Diadema','SP','Brasileira', 'F' ),
+('Yuri Chan',  '7156565656',null, 'yuri@ssma.com', 'Toquio', 'JA', 'Japones','M'),
+('Leticia Silva', '7523232323',null, 'leticia@ssma.com', 'Alagoinhas', 'BA', 'Brasileira','F'),
+('Paulo Cesár Santana',  '7154545454',null,'pcesar@ssma.com','Sao Bernardo','SP','Brasileiro', 'M' ),
+('Claudio Pereira', '7153465555',null, 'cpereira@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Juliano Santos', '7135357333', '7133333333', 'juliano@ssma.com', 'Salvador', 'BA', 'Brasileiro','M'),
+('Joselito Neris ', '7143344444',null,'joselito@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Carine Silva', '7155555555', null,'carine@ssma.com', 'Guanambi', 'BA', 'Brasileira', 'F'),
+('Daniel Rodrigues', '7144444444',null,'daniel@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Jilka Pires', '7155555555', null, 'jilka@ssma.com', 'Sao Luis', 'MA', 'Brasileira','F'),
+('Gabriel Dias', '7144444444',null,'gabriel@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Glaucia Ferreira Pereira', '7155555555', null, 'glaucia@ssma.com', 'Guanambi', 'BA', 'Brasileira', 'F'),
+('Pedro Conceição', '7144444444',null,'pconc@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Afonso Alonso', '7155555555', null, 'aalonso@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Zacarias Leão', '7144444444',null,'zleao@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Eliel Lima', '7155555555', null, 'eliel@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Elielson Santana', '7144444444',null,'elielson@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Matheus Pereira', '7155555555', null, 'mateus@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Vinicius Ribeiro', '7144444444',null,'vinbeiro@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Raimundo Souza', '7155555555', null, 'raimundo@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Talita Santos', '7144444444',null,'talita@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Fernando Mota', '7155555555', null, 'fmota@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('Isabela Reis', '7144444444',null,'ireis@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Pedro Miguel Oliveira', '7155555555', null, 'pmoliveira@ssma.com', 'Guanambi', 'BA', 'Brasileiro','M'),
+('João dos Santos', '7133333333',null, 'joão@ssma.com', 'Salvador', 'BA', 'Brasileiro','M'),
+('Maria Oliveira Santana', '7144444444',null,'maria@ssma.com','São Paulo','SP','Brasileira', 'F'),
+('Lucas Ferreira Pereira', '7155555555', null,  'lucas@ssma.com', 'Feira de Santana', 'BA','Brasileiro','M'),
+('João dos Oliveira', '7133333333',null, 'joão2@ssma.com', 'Salvador', 'BA','Brasileiro','M'),
+('Maria Oliveira Silva', '7144444444',null,'maria2@ssma.com','São Paulo','SP','Brasileira', 'F' ),
+('Lucas Matos Pereira', '7155555555', null,  'lucas2@ssma.com', 'Feira de Santana', 'BA','Brasileiro','M'),
+('Joana dos Santos', '7133333333',null, 'joana@ssma.com', 'Salvador', 'BA', 'Brasileira','F'),
+('Priscila Nery Pedreira', '7144444444','7123459999','priscila@ssma.com','Rio de Janeiro','RJ','Brasileira', 'F' ),
+('Georgiane Alves Pereira', '7155555555', null,'george2@ssma.com', 'Vitória da Conquista','BA', 'Brasileira','F'),
+('Priscila Nery Santana', '7144444444','7123459999','priscila2@ssma.com','Rio de Janeiro','RJ','Brasileira', 'F' ),
+('George Alves Almeida', '7155555555',null, 'george@ssma.com', 'Vitória da Conquista','BA', 'Brasileiro','M'),
+('Priscila Nery Mendes', '7144444444','7123459999','priscila3@ssma.com','Rio de Janeiro','RJ','Brasileira', 'F' ),
+('Mariana Ferreira Pereira', '7155555555', null, 'mfpereira@ssma.com', 'Guanambi', 'BA', 'Brasileira','F'),
+('José Almeida Santana', '7144444444',null,'jasantana@ssma.com','Osasco','SP','Brasileiro','M' ),
+('Gabriela Ferreira Pereira', '7155555555', null, 'gabriela@ssma.com', 'Guanambi', 'BA', 'Brasileira','F'),
+('Marcia Neris Santana', '7144444444',null,'marcia@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Marcela Ferreira Pereira', '7155555555', null, 'marcela@ssma.com', 'Guanambi', 'BA', 'Brasileira','F'),
+('Juliane Santana', '7144444444',null,'juliane@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Jasmim Ferreira Pereira', '7155555555', null, 'jasmim@ssma.com', 'Guanambi', 'BA', 'Brasileira','F'),
+('Patricia Cardoso', '7144444444',null,'pcardoso@ssma.com','Osasco','SP','Brasileira', 'F' ),
+('Julia Ferreira Pereira', '7155555555', null, 'julia@ssma.com', 'Guanambi', 'BA', 'Brasileira','F'),
+('Joseph Smith', '7144444444',null,'jsmith@ssma.com','Washiton','DC','Estadunidense', 'M' ),
+('Glauber Ferreira Pereira', '7155555555', null, 'glauber@ssma.com', 'Guanambi', 'BA', 'Brasileiro', 'M'), 
+('Leonardo Silva e Silva','7144444444',null,'leonardo@ssma.com','Osasco','SP','Brasileiro', 'M' ),
+('Pedro Oliveira Albuquerque', '7155555555', null, 'pedro@ssma.com', 'Candeias', 'BA', 'Brasileiro','M'),
+('Thaymara Kelly', '7155555555', null, 'thaykelly@ssma.com', 'Guanambi', 'BA', 'Brasileira','F');
+
+
+/*Cadastro do poscomp*/
+insert into pos_poscomp (pos_inscricao,pos_ano,pos_nota_matematica,
+pos_nota_fundamentos,pos_nota_tecnologia) values
+
+('2009101','2009',8.2,7.6,8.3),('2004151','2006',4.2,6.6,8.4),('2005101','2010',10,10,10),('2003101','2009',8.75,7.67,8.09),
+('2009161','2011',8.2,7.6,8.3),('2009801','2010',5.2,7.6,8.3),('2039101','2009',3.2,7.6,8.3),('2609101','2009',8.2,7.6,8.3),
+('2009001','2010',8.8,7.6,8.3),('2039101','2008',8.2,9.6,8.3),('2709101','2010',8.2,7.8,8.3),('2009171','2009',8.2,7.6,8.89),
+('2109101','2007',8.2,9.6,8.3),('2209101','2009',8.2,7.6,9.3),('2309101','2009',8.2,7.6,10),('2029101','2006',7.7,7.6,8.3),
+('2039101','2006',8.2,8.6,8.3),('2049101','2006',8.2,7.6,4.3),('2059101','2010',8.2,7.6,8.3),('2069101','2010',8.2,7.6,7.3),
+('2079101','2010',8.2,7.6,8.3),('2089101','2011',9.2,7.6,8.3),('2099101','2011',8.2,7.6,8.3),('2019101','2011',3.97,7.6,8.3),
+('2009111','2012',8.2,7.21,8.3),('2009121','2012',5.2,7.6,8.3),('2009131','2012',8.2,7.3,5.3),('2009161','2011',8.2,7.6,8.3),
+('2009151','2011',8.2,7.6,8.3),('2009141','2011',8.2,7.6,8.3),('2009201','2010',8.2,7.6,9.3),('2009301','2010',8.2,5.6,8.3),
+('2009401','2010',8.2,7.6,8.3),('2009701','2009',8.2,7.6,8.3),('2009601','2009',5.2,7.6,8.3),('2009501','2009',8.2,7.9,8.3),
+('2009801','2009',8.2,9.6,8.3),('2009901','2009',8.2,7.6,9.3),('2129101','2009',8.2,7.6,8.3),('2249101','2011',4.2,7.3,8.3), 
+('2239101','2011',5.2,7.6,3.3),('2139101','2011',8.2,7.0,8.3),('2679101','2011',8.2,7.6,8.3),('2559101','2011',8.2,7.6,8.3),
+('2149101','2011',8.2,7.6,5.3),('2699101','2009',2.2,7.6,8.3),('2689101','2009',8.2,6.6,8.3),('2709101','2009',8.2,8.6,5.3),
+('2459101','2009',8.2,7.6,8.3),('2469101','2009',9.2,7.6,8.3);
+
+
+/*Cadastro de área de mestrado*/
+
+insert into arm_area_mestrado (arm_ds_area_mestrado) values
+('Engenharia de Software'),('Mineração de Dados'),
+('Gestão do Conhecimento'),('Tecnologias Web'),
+('Multimídia'),('TV Digital'),('Computação Móvel'),
+('Tratamento Digital de Imagens'),('Modelagem 3D'),
+('Computação em Nuvem'),('Voz e Vídeo sobre IP'),
+('Qualidade de Serviço'),('Engenharia de Tráfego'),
+('Tecnologias IP'),('Redes sem Fio'),('Redes Ópticas'),
+('Computação Autonômica'),('Sistemas de Tempo Real'),
+('Agentes Móveis'), ( 'Algoritmos Distribuídos');
+
+/*Cadastro da Area de interesse*/
+
+insert into  ari_interesse (ari_id_area1,
+ari_id_area2,ari_id_area3,ari_id_area4)  values
+
+(10, 20, null, null), ( 5, 11,13, null), ( 2, 12, 19, null), ( 1, 17, null, null), ( 1, null, null, null),( 8, 16, 11, 7),
+( 5, null, null, null), ( 9, 6, null, null),( 4, 10, null, null), ( 2, 18, 19, 20), ( 20,null, null, null), ( 13, 15, null, null),
+( 8, 11, null, null), ( 7, 9, 10,null), (19, null, null, null), (11, 12, null, null), (14, 1,null, null), (15, 2, null, null), 
+(12, 8, 10, 18),( 3, 5,null, null),( 14, 4, 1, null),( 7, 10, null, null),( 4, 9, null,null),( 9, 20, 2, 7),
+( 4, 11, 19, null), ( 5, 18, null, null),(13, 3, null,null), ( 8, 20, null, null),(6, 6, null, null),( 10, 7,null, null), 
+( 18, 3, 2, null),( 11, 20, 3, null), ( 10, 1,11, null),(10, 20, null, null), ( 5, 4,13, null), ( 2, 12, 19, 20), 
+( 1, 9, null, null), ( 1, 10, 7, null),( 8, 16, 11, 7),( 5, 1, null, null), ( 9, 12, null, null),( 4, 10, 15, null), 
+( 2, 20, 19, 20), ( 20,15, null, null), ( 13, 15, null, null),( 8, null, null, null), ( 7, 9, 10,null), (19, null, null, null), 
+(11, 13, null, null), (14, 1,null, null);
+
+
+/*Cadastro de alunos*/
+
+insert into alu_aluno (alu_id_pessoa,alu_id_area_interesse,alu_id_poscomp ,alu_rg ,alu_cpf,  
+alu_dt_nascimento,alu_endereco  ,alu_bairro,alu_cep,alu_cidade,
+alu_estado,alu_dedicacao,alu_horas_semanais,alu_necessidade_bolsa) values
+
+(10000,30000,20000,'1232342221', '04134522166', '1990-05-30', 'Rua Troiano de Freitas, 208', 'Santo Antônio', '46430000', 'Guanambi', 'BA', 'I', 20, 'R' ),
+(10001,30001 ,20001 ,'0987654443', '04109876522', '1989-04-20', 'Travessa Clemente Pereira, 36', 'Imbuí', '40100000', 'Salvador', 'BA', 'I', 30, 'L' ),
+(10002,30002,20002,'1112223345', '99988877655', '1988-08-19', 'Rua Ruy Barbosa, 15', 'Centro', '40020070', 'Salvador', 'BA', 'P', 16.5, 'N' ),
+(10003,30003,20003 ,'6574532223', '04156743544', '1987-01-05', 'Avenida Barão do Rio Branco, 65', 'Centro', '46430000', 'Guanambi', 'BA', 'I', 20, 'R' ),
+(10004,30004,20004,'1111111111', '04122222222', '1990-04-01', 'Alameda dos anjo, 20', 'Barbosa', '46420089', 'Caetité', 'BA', 'P', 30, 'L' ),
+(10005,30005,20005 ,'1000000000', '20000000000', '1989-02-03', 'Rua Cláudio de Lima, 01', 'Amaralina', '40220000', 'Salvador', 'BA', 'I', 20, 'R' ),
+(10006,30006,20006,'1000000002', '20000000002', '1988-03-02', 'Rua Troiano de Freitas, 208', 'Santo Antônio', '46430000', 'Guanambi', 'BA', 'I', 20, 'R' ),
+(10007,30007,20007 ,'1000000003', '20000000003', '1990-05-30', 'Rua Troiano de Freitas, 208', 'Santo Antônio', '46430000', 'Guanambi', 'BA', 'I', 20, 'R' ),
+(10008,30008,20008,'1000000004', '20000000004', '1989-02-03', 'Alameda dos Anjos, 30', 'Barbosa', '46420089', 'Caetité', 'BA', 'I', 10, 'N' ),
+(10009,30009,20009 ,'1000000005', '20000000005', '1990-04-01', 'Rua Ruy Barbosa, 20', 'Centro', '40020070', 'Salvador', 'BA', 'I', 20, 'R' ),
+(10010,30010,20010,'1000000006', '20000000006', '1985-07-21', 'Avenida Barão do Rio Branco, 208', 'Centro', '46430000', 'Guanambi', 'BA', 'P', 40, 'L' ),
+(10011,30011,20011 ,'1000000007', '20000000007', '1985-07-21', 'Travessa Clemente Peereira, 36', 'Imbuí', '40100220', 'Salvador', 'BA', 'I', 15, 'N' ),
+(10012,30012,20012,'1000000008', '20000000008', '1984-05-25', 'Rua Claudio Manuel, 900', 'Vale das Pedrinhas', '47233900', 'Candeias', 'BA', 'P', 35, 'L' ),
+(10013,30013,20013 ,'1000000009', '20000000009', '1989-09-17', 'Rua São Paulo, 0', 'Brasilia', '40001000', 'Poços de Caldas', 'MG', 'I', 40, 'N'),
+(10014,30014,20014,'1000000010', '20000000010', '1990-05-22', 'Rua Nova Brasilia, 20', 'Caiçara', '46430000', 'Vassouras', 'MG', 'P', 25, 'R'),
+(10015,30015,20015 ,'1000000011', '20000000011', '1985-07-21', 'Rua dos Milagres, 1000', 'Pernambués', '41249000', 'Montes Claros', 'MG', 'I', 20, 'R' ),
+(10016,30016,20016,'1000000012', '2000000012', '1987-11-11', 'Rua Teixeira Amaral, 2244', 'Santo Antônio', '46430100', 'Nova Iguaçu', 'RJ', 'P', 30, 'N' ),
+(10017,30017,20017 ,'1000000013', '2000000013', '1984-06-12', 'Dão Pedro I, 1889', 'Belo Horizonte', '45221000', 'Vassouras', 'MG', 'I', 20, 'R' ),
+(10018,30018,20018,'1000000014', '2000000014', '1991-10-14', 'Rua Donato da Fonseca, 29', 'Caiçara', '46430000', 'Vassouras', 'MG', 'P', 20, 'L' ),
+(10019,30019,20019 ,'1000000015', '2000000015', '1987-11-11', 'Rua São Paulo,9', 'Brasilia', '40000100', 'Poços de Caldas', 'MG', 'I', 15, 'R' ),
+(10020,30020,20020,'1000000016', '2000000016', '1990-12-12', 'Rua Donato da Fonseca, 123', 'Caiçara', '46430000', 'Vassouras', 'MG', 'I', 40, 'N' ),
+(10021,30021,20021,'1000000018', '2000000018', '1990-12-12', 'Alameda dos Anjos, 477', 'Barbosa', '46420089', 'Caetité', 'BA', 'I', 10, 'N' ),
+(10022,30022 ,20022 ,'1000000019', '2000000019', '1990-05-30', 'Avenida Barão do Rio Branco, 80', 'Centro', '46430000', 'Guanambi', 'BA', 'P', 20, 'N' ),
+(10023,30023,20023,'1000000020', '2000000020', '1988-12-16', 'Rua Cláudio de Lima, 87', 'Amaralina', '40220000', 'Salvador', 'BA', 'I', 33, 'L' ),
+(10024,30024 ,20024 ,'1000000021', '2000000021', '1982-12-12', 'Dão Pedro I, 1889', 'Belo Horizonte', '45221000', 'Vassouras', 'MG', 'I', 40, 'N' ),
+(10025,30025,20025,'1000000022', '2000000022', '1989-11-18', 'Rua dos Milagres, 1345', 'Pernambués', '41249000', 'Montes Claros', 'MG', 'I', 20, 'R' ),
+(10026,30026 ,20026 ,'1000000023', '2000000023', '1989-009-19', 'Avenida Barão do Rio Branco, 122', 'Centro', '46430000', 'Guanambi', 'BA', 'P', 40, 'L' ),
+(10027,30027,20027 ,'1000000017', '2000000017', '1987-11-11', 'Rua Claudio Manuel, 900', 'Vale das Pedrinhas', '47233900', 'Candeias', 'BA', 'P', 35, 'L'  ),
+(10028,30028,20028,'1000000024', '2000000024', '1989-11-18', 'Rua Claudio Manuel, 900', 'Vale das Pedrinhas', '47233900', 'Candeias', 'BA', 'P', 35, 'L' ),
+(10029,30029 ,20029 ,'1000000025', '2000000025', '1981-11-11', 'Rua Nova Brasilia, 20', 'Caiçara', '46430000', 'Vassouras', 'MG', 'P', 25, 'R'),
+(10030,30030,20030,'1000000026', '2000000026', '1990-05-30', 'Alameda dos Anjos, 30', 'Barbosa', '46420089', 'Caetité', 'BA', 'I', 10, 'N' ),
+(10031,30031 ,20031 ,'1000000027', '2000000027', '1989-11-18', 'Rua Euclides da Cunha, 13', 'São Cristovão', '43213000', 'Jundiaí', 'SP', 'I', 20, 'R' ),
+(10032,30032,20032,'1000000028', '1000000029', '1986-05-23', 'Rua Pitágoras, 50', 'Saudade', '46430000', 'Vitoria da Conquista', 'BA', 'P', 40, 'L' ),
+(10033,30033 ,20033 ,'1000000029', '2000000029', '1984-05-23', 'Rua Vicente de Paula, 403', 'Paraiso', '46430000', 'Guanambi', 'BA', 'I', 20, 'N' ),
+(10034,30034,20034,'1000000030', '2000000030', '1989-11-18', 'Rua Mirantes, 8899', 'Vilha Velha', '42134000', 'Marinbondo', 'SE', 'P', 22, 'R' ),
+(10035,30035 ,20035 ,'1000000031', '2000000031', '1990-05-30', 'Rua Pitágoras, 55', 'Saudade', '46430000', 'Vitoria da Conquista', 'BA', 'P', 40, 'L' ),
+(10036,30036,20036,'1000000032', '2000000032', '1985-05-15', 'Rua Euclides da Cunha, 13', 'São Cristovão', '43213000', 'Jundiaí', 'SP', 'I', 10, 'L' ),
+(10037,30037 ,20037 ,'1000000033', '2000000033', '1981-12-02', 'Rua da Paciencia, 12', 'Cabula VI', '42134000', 'Salvador', 'BA', 'I', 20, 'L' ),
+(10038,30038,20038,'1000000034', '2000000034', '1980-01-07', 'Travessa Miguel Calmom, 455', 'Paraiso', '46430000', 'Guanambi', 'BA', 'P', 20, 'N' ),
+(10039,30039 ,20039 ,'1000000035', '2000000035', '1979-01-08', 'Rua de Ouro, 1000', 'ArcoIris', '41111000', 'Encanto', 'RS', 'I', 30, 'N' ),
+(10040,30040,20040,'1000000036', '2000000036', '1990-07-09', 'Rua da Paciencia, 12', 'Cabula VI', '42134000', 'Salvador', 'BA', 'I', 20, 'N' ),
+(10041,30041 ,20041 ,'1000000037', '2000000037', '1986-03-17', 'Rua Cristovão Colombo, 18', 'Alvorada', '42340000', 'Ouro Preto', 'MG', 'I', 20, 'R' ),
+(10042,30042,20042,'1000000038', '2000000038', '1990-05-22', 'Rua da Rocinha, 999', 'Brindes', '46123000', 'Rio de Janeiro', 'RJ', 'P', 30, 'N' ),
+(10043,30043 ,20043 ,'1000000039', '2000000039', '1987-08-05', 'Avenida Deolinda Martins, 33', 'Centro', '46430222', 'São Paulo', 'SP', 'I', 20, 'R' ),
+(10044,30044,20044,'1000000040', '2000000040', '1982-02-23', 'Rua Coronel Alves, 09', 'São Francisco', '45490000', 'Espirito Santo', 'ES', 'P', 20, 'L' ),
+(10045,30045 ,20045 ,'1000000041', '1000000041', '1988-05-12', 'Rua da Rocinha, 2009', 'Brindes', '46123000', 'Rio de Janeiro', 'RJ', 'I', 40, 'L' ),
+(10046,30046,20046,'1000000042', '2000000042', '1988-04-24', 'Rua de Ouro, 230', 'ArcoIris', '41111000', 'Encanto', 'RS', 'P', 30, 'L' ),
+(10047,30047 ,20047 ,'1000000043', '2000000043', '1990-05-30', 'Rua Troiano de Freitas, 300', 'Santo Antônio', '46430000', 'Guanambi', 'BA', 'I', 20, 'R' ),
+(10048,30048,20048,'1000000044', '2000000044', '1986-08-19', 'Rua da Paciencia, 12', 'Cabula VI', '42134000', 'Salvador', 'BA', 'I', 20, 'N' ),
+(10049,30049 ,20049 ,'1000000045', '2000000045', '1990-07-14', 'Rua Euclides da Cunha, 13', 'São Cristovão', '43213000', 'Jundiaí', 'SP', 'P', 40, 'L' );
+
+
+/*Cadastro curso*/
+
+
+insert into crs_curso (crs_id_aluno ,crs_nome ,crs_instituicao,
+crs_ano, crs_carga_horaria, crs_score, crs_img_historico) values
+
+(40000,'Processo de engenharia de Software','UNIFACS','2007',1200, 8.9,load_file('D:/imagens/historico.jpg')),
+(40001,'Curso técnico de Design Gráfico','SOS Computadores','2009',1200, 9.5,load_file('D:/imagens/historico.jpg')),
+(40002,'Curso técnico de Web Design','SOS Computadores','2009',1200, 10,load_file('D:/imagens/historico.jpg')),
+(40003,'Engenharia de Software','PUC-RIO','2004',1200, 8.8,load_file('D:/imagens/historico.jpg')),
+(40004,'Análise de Sistemas','UFMG','2003',1200, 7.8,load_file('D:/imagens/historico.jpg')),
+(40005,'Teoria da Computação','UFJF','2005',1200, 8.9,load_file('D:/imagens/historico.jpg')),
+(40006,'Meteorologia','USP','2009',1200, 9.0,load_file('D:/imagens/historico.jpg')),
+(40007,'Arquitetura de Computadores Moderna','UFJF','2001',156.5, 7.4,load_file('D:/imagens/historico.jpg')),
+(40008,'Banco de Dados','UFBA','2001',156.5, 8.2,load_file('D:/imagens/historico.jpg')),
+(40009,'Sistemas Operacionais','UFU','2000',156.5,7.8,load_file('D:/imagens/historico.jpg')),
+(40010,'Mecatrônica','UNIFACS','2004',156.5,  8.9,load_file('D:/imagens/historico.jpg')),
+(40011,'Inteligência Artificial','UFBA','2005',156.5, 8.6,load_file('D:/imagens/historico.jpg')),
+(40013,'Redes de Computadores','UFBA','2002',156.5, 9.2,load_file('D:/imagens/historico.jpg')),
+(40014,'Lógica e Algebra Computacional','PUC-RJ','2003',200.7,6.9,load_file('D:/imagens/historico.jpg')),
+(40016,'Computabilidade e Complexidade e Algoritmos','UEFS','2007',200.7,9.2,load_file('D:/imagens/historico.jpg')),
+(40019,'Agentes Autonomos','PUC_RIO','2001',200.7,7.7,load_file('D:/imagens/historico.jpg')),
+(40021,'Animação Computadorizada','IFBA','2003',200.7,8.7,load_file('D:/imagens/historico.jpg')),
+(40023,'Arquiteturas Paralelas','UEFS','2005',200.7,9.9,load_file('D:/imagens/historico.jpg')),
+(40024,'Criptografia','UFBA','2007',200.7,8.9,load_file('D:/imagens/historico.jpg')),
+(40026,'Engenharia de Software','UFBA','2007',200.7,8.9,load_file('D:/imagens/historico.jpg')),
+(40028,'Gerência de Requisitos','UFBA','2005',305.6,5.4,load_file('D:/imagens/historico.jpg')),
+(40029,'Analista de Sistema Web','UFBA','2011',305.6,9.5,load_file('D:/imagens/historico.jpg')),
+(40035,'Tratamento de Imagem','IFBA','2007',305.6,7.0,load_file('D:/imagens/historico.jpg')),
+(40038,'Redes','SENAI','2010',305.6,9.2,load_file('D:/imagens/historico.jpg')),
+(40039,'Sistemas web','UFBA','1997',305.6,8.0,load_file('D:/imagens/historico.jpg')),
+(40041,'Engenharia mecatrônica','UFBA','1999',305.6,8.9,load_file('D:/imagens/historico.jpg')),
+(40042,'Sistemas de Informação','UNEB','2005',305.6, 9.9,load_file('D:/imagens/historico.jpg')),
+(40048,'Mestrado em matemática','UFBA', '2002',305.6,6.8,load_file('D:/imagens/historico.jpg')),
+(40049,'Administração de empresas','UEFS','2007',305.6,9.2,load_file('D:/imagens/historico.jpg'));
+
+
+/*Cadastro de graduacao*/
+
+insert into gra_graduacao (gra_id_aluno ,gra_ds_graducao ,gra_instituicao,gra_cidade,gra_estado,
+gra_ano_ingresso,gra_ano_conclusão,gra_score,gra_img_historico)values
+
+(40000,'Ciência da Computação','UNIFACS','Salvador','BA',2001,2007,7.9,load_file('D:/imagens/historico.jpg')),
+(40001,'Engenharia da Computação','UFBA','Salvador','BA',2001,2007,6.9,load_file('D:/imagens/historico.jpg')),
+(40002,'Matematica','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40003,'Ciência da Computação','UFBA','Salvador','BA',2002,2008,10,load_file('D:/imagens/historico.jpg')),
+(40004,'Ciência da Computação','UFBA','Salvador','BA',2003,2008,8.8,load_file('D:/imagens/historico.jpg')),
+(40005,'Engenharia da Computação','UNIFACS','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40006,'Engenharia Eletrica','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40007,'Ciência da Computação','UFBA','Salvador','BA',2003,2009,8.9,load_file('D:/imagens/historico.jpg')),
+(40008,'Estatistica','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40009,'Ciência da Computação','UFBA','Salvador','BA',2002,2008,7.8,load_file('D:/imagens/historico.jpg')),
+(40010,'Ciência da Computação','UFBA','Salvador','BA',2004,2009,8.9,load_file('D:/imagens/historico.jpg')),
+(40011,'Ciência da Computação','UFBA','Salvador','BA',2005,2010,8.9,load_file('D:/imagens/historico.jpg')),
+(40012,'Estatistica','UFBA','Salvador','BA',2003,2008,8.9,load_file('D:/imagens/historico.jpg')),
+(40013,'Ciência da Computação','UFBA','Salvador','BA',2002,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40014,'Ciência da Computação','UFBA','Salvador','BA',2003,2009,8.9,load_file('D:/imagens/historico.jpg')),
+(40015,'Ciência da Computação','UFBA','Salvador','BA',2001,2006,8.9,load_file('D:/imagens/historico.jpg')),
+(40016,'Ciência da Computação','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40017,'Ciência da Computação','UFBA','Salvador','BA',2005,2011,8.4,load_file('D:/imagens/historico.jpg')),
+(40018,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40019,'Ciência da Computação','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+
+(40020,'Engenharia da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40021,'Ciência da Computação','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40022,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40023,'Engenharia da Computação','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40024,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40025,'Ciência da Computação','UNIFACS','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40026,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40027,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.5,load_file('D:/imagens/historico.jpg')),
+(40028,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.4,load_file('D:/imagens/historico.jpg')),
+(40029,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+
+(40030,'Ciência da Computação','UFBA','Salvador','BA',2006,2011,8.9,load_file('D:/imagens/historico.jpg')),
+(40031,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.02,load_file('D:/imagens/historico.jpg')),
+(40032,'Engenharia da Computação','IFBA','Salvador','BA',2006,2012,8.9,load_file('D:/imagens/historico.jpg')),
+(40033,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40034,'Ciência da Computação','UNIFACS','Salvador','BA',2005,2010,7.9,load_file('D:/imagens/historico.jpg')),
+(40035,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40036,'Ciência da Computação','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40037,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,6.9,load_file('D:/imagens/historico.jpg')),
+(40038,'Ciência da Computação','IFBA','Salvador','BA',2001,2007,8.2,load_file('D:/imagens/historico.jpg')),
+(40039,'Ciência da Computação','UFBA','Salvador','BA',2006,2011,8.1,load_file('D:/imagens/historico.jpg')),
+
+(40040,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,9.9,load_file('D:/imagens/historico.jpg')),
+(40041,'Ciência da Computação','IFBA','Salvador','BA',2006,2011,7.9,load_file('D:/imagens/historico.jpg')),
+(40042,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40043,'Ciência da Computação','UFBA','Salvador','BA',2003,2008,8.9,load_file('D:/imagens/historico.jpg')),
+(40044,'Ciência da Computação','UCSAL','Salvador','BA',2001,2009,6.9,load_file('D:/imagens/historico.jpg')),
+(40045,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40046,'Sistema da Informação','UNEB','Salvador','BA',2001,2007,8.6,load_file('D:/imagens/historico.jpg')),
+(40047,'Matematica','UFBA','Salvador','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg')),
+(40048,'Ciência da Computação','UFBA','Salvador','BA',2001,2007,5.9,load_file('D:/imagens/historico.jpg')),
+(40049,'Administração','UEFS','Feira de Santana','BA',2001,2007,8.9,load_file('D:/imagens/historico.jpg'));
+
+
+/*Cadastro de administrador*/ 
+
+insert into adm_administrador (adm_id_pessoa,adm_user,adm_password ) values
+(10000, 'csantos', 'ssma123'),
+(10001, 'psantana', 'ssma123'),
+(10002, 'gpereira', 'ssma123');
+
+
+/*Cadastro de profissão*/
+insert into prof_profissional (prof_id_aluno, prof_local, prof_cargo,prof_tempo) values
+(40000,null,null, 0 ), (40001,'Banco do Brasil','analista',1 ),(40002,'Tribunal Contas da União','Segurança de Rede', 1 ), 
+(40003,'Microsoft','analista de requisitos', 3 ), (40004,null,null, 0 ), (40005,'Tribunal Contas da União','Segurança de Rede', 1), 
+(40006,'Lasid','analista de sistema', 2 ), (40007,'Lasid','analista de sistema', 2 ),(40008,'Google','engenheiro de teste', 3 ),
+(40009,'Petrobras','gerente de projeto', 2 ),  (40010,'Google','engenheiro de teste', 3 ), (40011,'Google','engenheiro de teste', 3 ),
+(40012,'Google','engenheiro de teste', 3 ), (40013,null,null, 0 ), (40014,'Banco do Brasil','analista',1  ), 
+(40015,'Petrobras','gerente de projeto', 2  ), (40016,'Petrobras','gerente de projeto', 2  ), (40017,'Petrobras','gerente de projeto', 2  ), 
+(40018,'Banco do Brasil','analista',1  ), (40019,'Banco do Brasil','analista',1  ), (40020,'Google','engenheiro de teste', 3 ), 
+(40021,'Google','engenheiro de teste', 3 ), (40022,'Tribunal Contas da União','Segurança de Rede', 1), (40023,null,null, 0 ), 
+(40024,'Tribunal Contas da União','Segurança de Rede', 1), (40025,'Microsoft','analista de requisitos', 3  ), 
+(40026,'Microsoft','analista de requisitos', 3  ), (40027,'Microsoft','analista de requisitos', 3  ), 
+(40028,'Tribunal Contas da União','Segurança de Rede', 1), (40029,'Tribunal Contas da União','Segurança de Rede', 1), (40030,null,null, 0 ),
+(40031,'Tribunal Contas da União','Segurança de Rede', 1), (40032,'Lasid','analista de sistema', 2 ), 
+(40033,'Microsoft','analista de requisitos', 3  ), (40034,'Microsoft','analista de requisitos', 3  ), 
+(40035,'Petrobras','gerente de projeto', 2  ), (40036,'Microsoft','analista de requisitos', 3  ), (40037,'Lasid','analista de sistema', 2 ), 
+(40038,'Lasid','analista de sistema', 2 ), (40039,'Banco do Brasil','analista',1  ), (40040,'Petrobras','gerente de projeto', 2  ), 
+(40041,'Petrobras','gerente de projeto', 2  ),  (40042,'Banco do Brasil','analista',1  ), (40043,'Banco do Brasil','analista',1  ), 
+(40044,'Google','engnheiro de teste', 3 ), (40046,'Lasid','analista de sistema', 2 ),
+(40047,'Lasid','analista de sistema', 2 ), (40048,null,null, 0 ),(40049,null,null, 0 );
+
+
+
+/*Cadastro pesquisa*/
+
+insert into pesq_pesquisa(pesq_id_aluno,pesq_link_lattes,pesq_publicacao,pesq_tempo) values 
+
+(40000,'lattes.com.br','B',2),
+(40001,'lattes.com.br','E',3),
+(40002,'lattes.com.br','O',4),
+(40003,'lattes.com.br','B',1),
+(40004,'lattes.com.br','O',3),
+(40005,'lattes.com.br','R',1),
+(40006,'lattes.com.br','P',1),
+(40007,'lattes.com.br','N',0),
+(40008,'lattes.com.br','B',3),
+(40009,'lattes.com.br','E',2),
+(40010,'lattes.com.br','O',2),
+(40011,'lattes.com.br','R',4),
+(40012,'lattes.com.br','P',2),
+(40013,'lattes.com.br','N',1),
+(40014,'lattes.com.br','E',4),
+(40015,'lattes.com.br','B',4),
+(40016,'lattes.com.br','R',3),
+(40017,'lattes.com.br','O',1),
+(40018,'lattes.com.br','E',1),
+(40019,'lattes.com.br','P',3),
+(40020,'lattes.com.br','N',2),
+(40021,'lattes.com.br','O',0),
+(40022,'lattes.com.br','B',0),
+(40023,'lattes.com.br','R',0),
+(40024,'lattes.com.br','E',0),
+(40025,'lattes.com.br','P',0),
+(40026,'lattes.com.br','N',3),
+(40027,'lattes.com.br','R',2),
+(40028,'lattes.com.br','P',4),
+(40029,'lattes.com.br','N',4),
+(40030,'lattes.com.br','B',1),
+(40031,'lattes.com.br','R',2),
+(40032,'lattes.com.br','O',3),
+(40033,'lattes.com.br','E',4),
+(40034,'lattes.com.br','P',0),
+(40035,'lattes.com.br','N',1),
+(40036,'lattes.com.br','B',2),
+(40037,'lattes.com.br','R',3),
+(40038,'lattes.com.br','O',4),
+(40039,'lattes.com.br','E',0),
+(40040,'lattes.com.br','P',1),
+(40041,'lattes.com.br','N',2),
+(40042,'lattes.com.br','B',3),
+(40043,'lattes.com.br','R',4),
+(40044,'lattes.com.br','O',0),
+(40046,'lattes.com.br','P',2),
+(40047,'lattes.com.br','N',3),
+(40048,'lattes.com.br','O',4),
+(40049,'lattes.com.br','R',0);
+
+ 
+
+
+
+
+
+
+
+
+
+
+
